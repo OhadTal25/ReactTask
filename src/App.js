@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Lobby from './components/Lobby.js';
+import CodeBlock from './components/CodeBlock.js';
+import MyPage from './components/MyPage.js'; 
+import './App.css'; 
+import './components/Lobby.css'; 
+import './components/CodeBlock.css'; 
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className='App'>
+          <Router>
+              <Routes>
+                  <Route path="/" element={<Lobby />} />
+                  <Route path="/codeblock/:codeBlockTitle" element={<CodeBlock />} />
+                  <Route path="/editor" element={<MyPage />} /> {/* New route for MyPage */}
+              </Routes>
+          </Router>
+      </div> 
   );
 }
 
 export default App;
+
+
+

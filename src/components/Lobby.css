@@ -1,0 +1,91 @@
+.Lobby {
+    text-align: center;
+}
+
+.logo-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 1px;
+    width: 50%;
+    margin:70px auto; /* Center the grid vertically with margin */
+    position: relative; /* Set position relative to allow absolute positioning of children */
+    padding-bottom: 30px; /* Add padding to the bottom of the grid */
+}
+
+.logo-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Allow manual position adjustments */
+}
+.code-block-content{
+    transform: rotate(-45deg);
+
+    display: block;
+    color: white; /* This will set the text color to white */
+    text-align: center;
+    width: 100%; /* Ensure the width matches the parent */
+}
+
+.code-block {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.4s;
+    cursor: pointer;
+    position: relative;
+    transform: rotate(45deg);
+    overflow: hidden;
+}
+
+
+
+/* Adjust the content within the .code-block to counter the rotation */
+.code-block > span {
+    transform: rotate(-45deg);
+    display: block;
+    color: white;
+}
+
+/* Additional styles for color blocks */
+.blue-block {
+    background-color: #404c75; /* Dark blue color */
+}
+
+.red-block {
+    background-color: #9e312b; /* Dark red color */
+}
+
+.white-block {
+    background-color: #404c75; /* white color */
+}
+
+.logo-block img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.code-block:hover {
+    transform: scale(1.1);
+    text-align: auto;
+}
+
+/* Manual position adjustments */
+.adjust-up {
+    bottom: 0px; /* Move up by 50px */
+}
+
+.adjust-down {
+    top: 140px; /* Move down by 50px */
+}
+
+/* Manual position adjustments */
+.adjust-left {
+    right: 50px; /* Move up by 50px */
+}
+/* Manual position adjustments */
+.adjust-rigth {
+    left: 50px; /* Move up by 50px */
+}

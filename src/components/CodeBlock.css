@@ -1,0 +1,46 @@
+.CodeBlock {
+    margin-top: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+.CodeBlock pre {
+    background-color: #eee;
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 80%;
+    overflow-x: auto;
+}
+
+.CodeBlock textarea {
+    width: 80%;
+    height: 300px;
+    padding: 10px;
+    font-family: monospace;
+    margin: 20px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.back-to-lobby-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #59716a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.back-to-lobby-btn:hover {
+    transform: translateX(-50%) scale(1.5);
+}
+
