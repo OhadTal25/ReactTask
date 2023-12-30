@@ -1,4 +1,5 @@
-<img src="![DALL·E 2023-12-30 05 15 57 - A digital illustration of a modern web development workspace, featuring two screens  On one screen, there's a coding interface with JavaScript code vi](https://github.com/OhadTal25/ReactTask/assets/89091610/a4bbc085-8d0b-45cc-85bc-fe7b121ec2c5)" width="100" height="100">
+![DallE](https://github.com/OhadTal25/ReactTask/assets/89091610/10fb1442-6f5a-4d45-af0b-de29508db991)
+
 
 # React Code Collaboration Platform
 
