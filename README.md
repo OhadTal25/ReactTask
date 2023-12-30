@@ -1,3 +1,6 @@
+
+![DALL·E 2023-12-30 05 15 57 - A digital illustration of a modern web development workspace, featuring two screens  On one screen, there's a coding interface with JavaScript code vi](https://github.com/OhadTal25/ReactTask/assets/89091610/a4bbc085-8d0b-45cc-85bc-fe7b121ec2c5)
+
 # React Code Collaboration Platform
 
 ## Project Overview
