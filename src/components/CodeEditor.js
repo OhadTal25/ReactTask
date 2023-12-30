@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { realtimeDb } from '../firebase.js'; 
+import { realtimeDb } from '../services/firebase.js'; 
 
 
 const CodeEditor = () => {

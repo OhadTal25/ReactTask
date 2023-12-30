@@ -53,7 +53,8 @@ const CodeBlock = () => {
 
     return (
         <div>
-            <h2>{decodeURIComponent(codeBlockTitle)}</h2>
+            <h1>{decodeURIComponent(codeBlockTitle)}</h1>
+            <h2>Fix the code below:</h2>
             <div>
                 {isMentor ? <p>Read-Only Mode (Mentor View)</p> : <p>Editable Mode (Student View)</p>}
                 <textarea

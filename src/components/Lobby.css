@@ -5,8 +5,11 @@
 .logo-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     grid-gap: 1px;
-    width: 50%;
+    width: 30%;
     margin:70px auto; /* Center the grid vertically with margin */
     position: relative; /* Set position relative to allow absolute positioning of children */
     padding-bottom: 30px; /* Add padding to the bottom of the grid */
@@ -22,9 +25,9 @@
     transform: rotate(-45deg);
 
     display: block;
-    color: white; /* This will set the text color to white */
+    color: white; 
     text-align: center;
-    width: 100%; /* Ensure the width matches the parent */
+    width: 100%; 
 }
 
 .code-block {
@@ -81,11 +84,10 @@
     top: 140px; /* Move down by 50px */
 }
 
-/* Manual position adjustments */
 .adjust-left {
-    right: 50px; /* Move up by 50px */
+    right: 50px; /* Move left by 50px */
 }
-/* Manual position adjustments */
+
 .adjust-rigth {
-    left: 50px; /* Move up by 50px */
+    left: 50px; /* Move up right 50px */
 }

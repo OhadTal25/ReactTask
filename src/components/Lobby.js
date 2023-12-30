@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-
+// Define an array of code blocks
 export const codeBlocks = [
     {
         title: "Async Case",
