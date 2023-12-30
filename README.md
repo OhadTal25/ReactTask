@@ -1,6 +1,3 @@
-![DallE](https://github.com/OhadTal25/ReactTask/assets/89091610/10fb1442-6f5a-4d45-af0b-de29508db991)
-
-
 # React Code Collaboration Platform
 
 ## Project Overview
