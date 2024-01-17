@@ -22,3 +22,6 @@ These instructions will get you a copy of the project up and running on your loc
 - Run: cd client
 - Run: npm install (to install all of the project's dependencies).
 - Run: npm start (to start the development server). This will automatically open a new browser window with the project running in it.
+
+##CodeBlocks Data
+The data for the available code blocks has been organized into a separate file for better maintainability. You can find the code blocks data in the codeBlocksData.js file.
