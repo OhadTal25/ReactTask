@@ -21,7 +21,7 @@ These instructions will get you a copy of the project up and running on your loc
 - Run: npm install (to install all of the project's dependencies).
 - Run: npm start (to start the development server).
 
-#### now open another terminal window and navigate to the root directory of your project.
+#### now open another terminal window and navigate to the root directory of your project. 
 - Run: cd client
 - Run: npm install (to install all of the project's dependencies).
 - Run: npm start (to start the development server). This will automatically open a new browser window with the project running in it.
