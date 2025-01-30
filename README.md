@@ -4,7 +4,7 @@
 This project is a React-based web application designed for real-time code collaboration. It allows users to join different code blocks, edit code in real-time, and see updates live as they happen, similar to Google Docs but for code. The project utilizes technologies like React, Socket.IO, Firebase, and Express.js.
   
 ## Live Demo    
-Explore the live demo of the project [here](https://ohad-moveo-project.netlify.app).  
+Explore the live demo of the project [here](https://ohad-moveo-project.netlify.app).   
 
 ## Features    
 - **Real-time Code Editing**: Users can edit code in real-time across different devices.
