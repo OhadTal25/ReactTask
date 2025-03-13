@@ -6,7 +6,7 @@ This project is a React-based web application designed for real-time code collab
 ## Live Demo      
 Explore the live demo of the project [here](https://ohad-moveo-project.netlify.app).       
   
-## Features    
+## Features     
 - **Real-time Code Editing**: Users can edit code in real-time across different devices.
 - **Code Block Management**: A variety of code blocks, such as Async Case, Callback Example, Promise Handling, and Event Loop Explanation, are available for collaboration.
 - **Syntax Highlighting**: The application includes syntax highlighting for better readability.
