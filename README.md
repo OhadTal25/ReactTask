@@ -10,7 +10,7 @@ Explore the live demo of the project [here](https://ohad-moveo-project.netlify.a
 - **Real-time Code Editing**: Users can edit code in real-time across different devices.
 - **Code Block Management**: A variety of code blocks, such as Async Case, Callback Example, Promise Handling, and Event Loop Explanation, are available for collaboration.
 - **Syntax Highlighting**: The application includes syntax highlighting for better readability.
-- **Firebase Integration**: Real-time data syncing and storage through Firebase.
+- **Firebase Integration**: Real-time data syncing and storage through Firebase. 
 - **Socket.IO Communication**: Real-time bi-directional event-based communication.
 
 ## Getting Started
