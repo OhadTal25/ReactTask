@@ -13,7 +13,7 @@ Explore the live demo of the project [here](https://ohad-moveo-project.netlify.a
 - **Firebase Integration**: Real-time data syncing and storage through Firebase. 
 - **Socket.IO Communication**: Real-time bi-directional event-based communication.
 
-## Getting Started
+## Getting Started 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 #### Open a terminal window and navigate to the root directory of your project.
