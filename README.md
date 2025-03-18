@@ -1,5 +1,5 @@
 # React Code Collaboration Platform     
-        
+         
 ## Project Overview          
 This project is a React-based web application designed for real-time code collaboration. It allows users to join different code blocks, edit code in real-time, and see updates live as they happen, similar to Google Docs but for code. The project utilizes technologies like React, Socket.IO, Firebase, and Express.js.
    
